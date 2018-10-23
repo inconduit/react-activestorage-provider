@@ -28,7 +28,7 @@ type Options = {|
 
 class Upload {
   static CONVENTIONAL_DIRECT_UPLOADS_PATH =
-    '/rails/active_storage/direct_uploads'
+    '/api/v1/profile'
 
   static defaultOptions = {
     origin: {},
